@@ -53,6 +53,6 @@ var facts = [
 ];
 
 function genQuote() {
-  var randNum = Math.floor(Math.random() * facts.length) + 1;
+  var randNum = Math.floor(Math.random() * facts.length;
   document.getElementById('ekta_fact').innerHTML = facts[randNum];
 }
